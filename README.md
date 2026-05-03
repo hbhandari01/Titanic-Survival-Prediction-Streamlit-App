@@ -60,3 +60,16 @@ To predict passenger survival on the Titanic using historical data and machine l
 ---
 
 ## 📁 Project Structure
+
+titanic-streamlit-app/
+│── app.py
+│── model.pkl
+│── scaler.pkl
+│── requirements.txt
+│── README.md
+
+
+
+
+
+
