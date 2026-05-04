@@ -1,75 +1,145 @@
-# 🚢 Titanic Survival Prediction (Streamlit + Machine Learning)
+# 🚢 Titanic Survival Prediction (Machine Learning + Streamlit)
 
 ## 📌 Project Overview
-This project is a machine learning web application that predicts whether a passenger would have survived the Titanic disaster based on input features such as age, gender, passenger class, and more. The model is deployed using Streamlit for an interactive user experience.
+
+This project predicts whether a passenger survived the Titanic disaster using Machine Learning models.
+It covers the complete ML pipeline including data preprocessing, feature engineering, model building, evaluation, and deployment using Streamlit.
 
 ---
 
-## 🚀 Live Demo
-👉 https://titanic-survival-prediction-app-app-peiezr2vccatlbnamgcufs.streamlit.app/
+## 🎯 Objective
+
+To build a predictive model that determines the survival of passengers based on features such as age, gender, ticket class, fare, and family details.
 
 ---
 
-## 🧠 Problem Statement
-To predict passenger survival on the Titanic using historical data and machine learning classification techniques.
+## 🛠️ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Matplotlib & Seaborn
+* Streamlit
 
 ---
 
-## 📊 Dataset
-- Titanic dataset (Kaggle)
-- Features used:
-  - Passenger Class (Pclass)
-  - Sex
-  - Age
-  - SibSp
-  - Parch
-  - Fare
-  - Embarked
+## 📊 Machine Learning Models Used
+
+* Logistic Regression
+* Decision Tree Classifier
+* Random Forest Classifier
 
 ---
 
-## ⚙️ Technologies Used
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Streamlit
-- Pickle
+## ⚙️ Steps Involved
+
+### 1. Data Preprocessing
+
+* Handled missing values (Age → median, Cabin → dropped)
+* Removed irrelevant columns (PassengerId, Name, Ticket)
+
+### 2. Feature Engineering
+
+* Created new feature: **FamilySize = SibSp + Parch**
+
+### 3. Encoding
+
+* Label Encoding for binary variables (Sex)
+* One-Hot Encoding for categorical variables (Embarked)
+
+### 4. Feature Scaling
+
+* Applied StandardScaler to normalize numerical features
+
+### 5. Model Training
+
+* Split data into training and testing sets
+* Trained multiple ML models for comparison
+
+### 6. Model Evaluation
+
+* Evaluated using Accuracy Score and Confusion Matrix
 
 ---
 
-## 🧹 Data Preprocessing
-- Handled missing values  
-- Encoded categorical variables using Label Encoding  
-- Feature scaling applied  
-- Selected important features for model training  
+## 📈 Results
+
+| Model               | Accuracy |
+| ------------------- | -------- |
+| Logistic Regression | 80%      |
+| Decision Tree       | 72%      |
+| Random Forest       | 83%      |
+
+👉 **Best Model: Random Forest Classifier**
 
 ---
 
-## 🤖 Models Used
-- Logistic Regression (Classification)
-- Decision Tree
-- Random Forest
+## 🔍 Confusion Matrix Insights
+
+* High accuracy in predicting non-survivors
+* Some survivors were misclassified (False Negatives)
+* Balanced performance with good precision (~83%)
+
 ---
 
-## 📦 Model Deployment
-- Model saved using `pickle`  
-- Streamlit used for building web interface  
-- Deployed on Streamlit Cloud  
+## 🚀 Streamlit App
+
+An interactive web application is built using Streamlit where users can input passenger details and get real-time survival predictions.
+
+👉 **Live App Link:**
+https://titanic-survival-prediction-app-app-peiezr2vccatlbnamgcufs.streamlit.app/
 
 ---
 
 ## 📁 Project Structure
 
-titanic-streamlit-app/
-│── app.py
-│── model.pkl
-│── scaler.pkl
-│── requirements.txt
-│── README.md
+```
+Titanic_Project/
+│
+├── titanic_notebook.ipynb
+├── app.py
+├── titanic_model.pkl
+├── scaler.pkl
+├── requirements.txt
+└── README.md
+```
 
+---
 
+## ▶️ How to Run Locally
 
+1. Clone the repository:
 
+```
+git clone <your-repo-link>
+```
 
+2. Install dependencies:
 
+```
+pip install -r requirements.txt
+```
+
+3. Run the Streamlit app:
+
+```
+streamlit run app.py
+```
+
+---
+
+## 💡 Key Learnings
+
+* Importance of data preprocessing in ML
+* Handling categorical variables and missing data
+* Model comparison and evaluation techniques
+* Deploying ML models using Streamlit
+
+---
+
+## 👤 Author
+
+Himanshu Bhandari
+
+---
