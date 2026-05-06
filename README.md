@@ -140,6 +140,6 @@ streamlit run app.py
 
 ## 👤 Author
 
-Himanshu Bhandari | Data analyst Professional
+Himanshu Bhandari | Data Analyst Professional
 
 ---
