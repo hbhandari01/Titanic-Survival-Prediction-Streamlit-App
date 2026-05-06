@@ -71,7 +71,7 @@ To build a predictive model that determines the survival of passengers based on 
 | Decision Tree       | 72%      |
 | Random Forest       | 83%      |
 
-👉 **Best Model: Random Forest Classifier**
+👉 **Best Performing Model: Random Forest Classifier**
 
 ---
 
@@ -140,6 +140,6 @@ streamlit run app.py
 
 ## 👤 Author
 
-Himanshu Bhandari
+Himanshu Bhandari | Data analyst Professional
 
 ---
