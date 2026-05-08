@@ -71,7 +71,7 @@ To build a predictive model that determines the survival of passengers based on 
 | Decision Tree       | 72%      |
 | Random Forest       | 83%      |
 
-👉 **Best Performing Model: Random Forest Classifier**
+👉 **Best Model: Random Forest Classifier**
 
 ---
 
