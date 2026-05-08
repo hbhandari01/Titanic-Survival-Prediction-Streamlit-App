@@ -19,7 +19,6 @@ To build a predictive model that determines the survival of passengers based on 
 * Pandas
 * NumPy
 * Scikit-learn
-* Matplotlib & Seaborn
 * Streamlit
 
 ---
