@@ -103,8 +103,7 @@ Titanic_Project/
 ├── scaler.pkl
 ├── requirements.txt
 └── README.md
-
----
+```
 
 ## 💡 Key Learnings
 
