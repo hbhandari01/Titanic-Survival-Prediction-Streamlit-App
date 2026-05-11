@@ -59,7 +59,7 @@ To build a predictive model that determines the survival of passengers based on 
 
 ### 6. Model Evaluation
 
-* Evaluated using Accuracy Score and Confusion Matrix
+* Evaluated model using Accuracy Score and Confusion Matrix
 
 ---
 
