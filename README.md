@@ -85,7 +85,7 @@ To build a predictive model that determines the survival of passengers based on 
 
 ## 🚀 Streamlit App
 
-An interactive web application is built using Streamlit where users can input passenger details and get real-time survival predictions.
+Made a web application using Streamlit where users can input passenger details and get real-time survival predictions.
 
 👉 **Live App Link:**
 https://titanic-survival-prediction-app-app-peiezr2vccatlbnamgcufs.streamlit.app/
