@@ -78,7 +78,7 @@ To build a predictive model that determines the survival of passengers based on 
 ## 🔍 Confusion Matrix Insights
 
 * High accuracy in predicting non-survivors
-* Some survivors were misclassified (False Negatives)
+* Some survivors were mis-classified (False Negatives)
 * Balanced performance with good precision (~83%)
 
 ---
@@ -140,6 +140,6 @@ streamlit run app.py
 
 ## 👤 Author
 
-Himanshu Bhandari | Data Analyst Professional
+Himanshu Bhandari | Data Analyst
 
 ---
