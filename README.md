@@ -103,29 +103,6 @@ Titanic_Project/
 ├── scaler.pkl
 ├── requirements.txt
 └── README.md
-```
-
----
-
-## ▶️ How to Run Locally
-
-1. Clone the repository:
-
-```
-git clone <your-repo-link>
-```
-
-2. Install dependencies:
-
-```
-pip install -r requirements.txt
-```
-
-3. Run the Streamlit app:
-
-```
-streamlit run app.py
-```
 
 ---
 
